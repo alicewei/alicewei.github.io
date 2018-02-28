@@ -187,6 +187,11 @@ body {
     margin: 0 0.833333333333333%;
   }
 }
+@media screen and (min-width: 768px) {
+  #main {
+    float: right;
+  }
+}
 .article-date,
 .article-category-link,
 .archive-year,
@@ -199,14 +204,11 @@ body {
   margin-left: 5px;
   line-height: 1em;
   text-shadow: 0 1px #fff;
-  font-weight: bold;
+  font-size: 75%;
 }
 .article-inner,
 .archive-article-inner {
   background: #fff;
-  -webkit-box-shadow: 1px 2px 3px #ddd;
-  box-shadow: 1px 2px 3px #ddd;
-  border: 1px solid #ddd;
   border-radius: 3px;
 }
 .article-entry h1,
@@ -308,7 +310,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 300px;
+  height: 380px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -1301,10 +1303,7 @@ pre .javascript .function {
 .widget {
   color: #777;
   text-shadow: 0 1px #fff;
-  background: #ddd;
-  -webkit-box-shadow: 0 -1px 4px #ccc inset;
-  box-shadow: 0 -1px 4px #ccc inset;
-  border: 1px solid #ccc;
+  background: #fff;
   padding: 15px;
   border-radius: 3px;
 }
